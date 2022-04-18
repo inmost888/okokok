@@ -5,10 +5,10 @@ DIR_CONFIG="/etc/v2ray"
 DIR_RUNTIME="/usr/bin"
 DIR_TMP="$(mktemp -d)"
 
-ID=ad806487-2d26-4636-98b6-ab85cc8521f7
+ID=3f1e7a5b-acf2-4231-afe8-d30a5a25cf52
 AID=64
 WSPATH=/
-PORT=80
+PORT=443
 
 # Write V2Ray configuration
 cat << EOF > ${DIR_TMP}/heroku.json
